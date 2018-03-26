@@ -54,6 +54,11 @@ Sends a `DC_DIMMER_COMMAND_2` message (`1FEDB`) to the CAN bus. This is
 typically used to control lights, but can also be used to turn other
 items on and off, such as a water pump or fan.
 
+### ceiling_fan.pl
+
+Sends a combination of `DC_DIMMER_COMMAND_2` messages (`1FEDB`) to
+control the bedroom ceiling fan.
+
 ### vent_fan.pl
 
 Sends `DC_DIMMER_COMMAND_2` messages (`1FEDB`) to the CAN bus to control
